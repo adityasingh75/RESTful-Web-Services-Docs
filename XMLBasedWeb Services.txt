@@ -1,0 +1,17 @@
+1. Download Netbeans-8.2 zip from https://netbeans.org/downloads/zip.html (Java built-in)
+2. Download GlashFish Server from https://javaee.github.io/glassfish/download (Full platform)
+3. Open Netbeans go to Services->Servers->Add Server->Next->Choose GlashFish server extracted file location -> Finish
+4. Start the server
+5. Create new Java Web/Web Application-> Continue with GlashFish-> Finish without selecting any framework.
+6. Right click on project-> Create Web Service-> Give name and package name(com.wipro .. etc)-> Finish
+7. Web Service/Created Service -> Design tab -> Add Operation-> Provide name, Return type, Input parameter.
+8. Provide implementation of service.(Adding two numbers)
+9. Inside Web Pages/index.html we can customise landing page.
+10. Run the WebApplication and test Web Services/Created Services.
+11. Create client application(Normal Java Application)
+12. Right Click and New/Web Service Client-> Provide Project name of Web Application-> Finish
+13. Drag and drop Method referance from 'Web Service Reference/Created Service/Created Service Port/Method name' to Source package/Main class outside of main method.
+14. Call the method from main method and print output in console.
+15. Clean and build Java client application.
+16. Run the main class of Client application.
+17. Enjoy!!!
